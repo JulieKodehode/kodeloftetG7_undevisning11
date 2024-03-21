@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- script med type module går inn og kan ha flere js filer linket til en fil -->
+    <script type="module" src="script.js"></script>
+
+    <!-- script med nøkkelordet defer er en alenestående fil -->
+    <!-- <script src="script.js" defer></script> -->
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <!-- Se denne versjonen hardkodet. Men vi har endret den med JS til noe annet. -->
+      <h1>Good morning, Julie!</h1>
+    </main>
+
+    <!-- Vi kan linke til en script fil i body. (Ikke anbefalt) -->
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
